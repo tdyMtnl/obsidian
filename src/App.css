@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+body{
+  background: url(../public/imagens/fundo1.jpeg) center / cover no-repeat fixed;
+  /* overflow: hidden; */
+  display: grid;
+  
+}
+.AppStyle {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  grid-template-rows: 80% 20%;
+  grid-template-areas: 
+  "menu"
+  "principal"
+  "rodape"
+  ;
+  row-gap: 5px;
+  padding: 1px;
+  box-sizing: border-box;
+
+
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Menu{
+  
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: 100vh;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Principal{
+  
+  grid-column: 2 / 2;
+  grid-row: 1 / 2;
+  overflow: auto;
+  text-overflow: ellipsis;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Principal img{
+  max-width: 100%;
+  width: 100%;
+  
+
 }

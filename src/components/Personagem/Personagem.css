@@ -1,0 +1,21 @@
+.personagem{
+    width: 280px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px 0;
+    
+}
+.personagem .imagen-conainer img{
+    max-width: 100%;
+    
+    
+}
+
+.personagem .conteudo{
+    padding: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 50%;
+}

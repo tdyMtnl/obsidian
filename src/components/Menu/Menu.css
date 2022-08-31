@@ -1,0 +1,56 @@
+.Menu{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(156,156,156,1) 100%);
+}
+
+li {
+    list-style-type: none;
+    width:auto;
+    display: block;
+    height: 5vh;
+    margin: 25px;
+}
+li.selected{
+    background-color: black;
+    color:#ffffff;
+}
+
+a{
+    color:black;
+}
+
+
+.menu__home{
+    background: url(../../../public/imagens/house.svg) center / contain no-repeat;
+    height: 5vh;
+    
+    
+}
+
+.menu__home:hover{
+    background: url(../../../public/imagens/house-fill.svg) center / contain no-repeat;
+}
+
+.menu__cartas{
+    background: url(../../../public/imagens/archive.svg) center / contain no-repeat;
+}
+
+.menu__cartas:hover{
+    background: url(../../../public/imagens/archive-fill.svg) center / contain no-repeat;
+}
+
+.menu__perfil{
+    background: url(../../../public/imagens/person.svg) center / contain no-repeat;
+}
+
+.menu__perfil:hover{
+    background: url(../../../public/imagens/person-fill.svg) center / contain no-repeat;
+}
+
+.menu__historico{
+    background: url(../../../public/imagens/clock.svg) center / contain no-repeat;
+}
+
+.menu__historico:hover{
+    background: url(../../../public/imagens/clock-fill.svg) center / contain no-repeat;
+}
