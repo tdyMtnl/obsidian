@@ -1,0 +1,36 @@
+.Carta{
+    width: 280px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px 0;
+    border: 1px solid;
+    
+}
+.Carta .imagen-conainer img{
+    max-width: 100%;
+    
+    
+}
+
+.Carta .conteudo{
+    padding: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 45%;
+    
+}
+
+.Carta .conteudo .resistencia{
+    background-color: red;
+    max-width:max-content;
+}
+.Carta .conteudo .custo{
+    background-color: yellow;
+    max-width:max-content;
+}
+.Carta .conteudo .forca{
+    background-color: rgba(53, 53, 53, 0.687);
+    max-width:max-content;
+}

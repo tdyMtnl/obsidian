@@ -5,6 +5,7 @@
     border-radius: 5px;
     text-align: center;
     margin: 2px 0;
+    border: 1px solid;
     
 }
 .personagem .imagen-conainer img{
@@ -17,5 +18,5 @@
     padding: 2px;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 50%;
+    max-height: 45%;
 }
